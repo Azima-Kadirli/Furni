@@ -1,0 +1,30 @@
+﻿@model Product
+<div class="container">
+    <div class="row">
+        <form method="post" asp-action="Create" asp-controller="Product">
+
+            <div class="form-group">
+                <label>Title</label>
+                <input type="text" name="title" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Price</label>
+                <input type="number" step="0.01" name="price" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Image Name</label>
+                <input type="text" name="imageName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Image Path</label>
+                <input type="text" name="imagePath" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+</div>

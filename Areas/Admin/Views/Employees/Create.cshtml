@@ -1,0 +1,39 @@
+﻿<div class="container">
+    <div class="row">
+        <form method="post" asp-action="Create" asp-controller="Employee">
+
+            <div class="form-group">
+                <label>FirstName</label>
+                <input type="text" name="firstName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>LastName</label>
+                <input type="text" step="0.01" name="lastName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Position</label>
+                <input type="text" step="0.01" name="position" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Description</label>
+                <input type="text" name="description" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Image Url</label>
+                <input type="text" name="imageUrl" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Image Name</label>
+                <input type="text" name="imageName" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+</div>
