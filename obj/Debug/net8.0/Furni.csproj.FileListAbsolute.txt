@@ -502,3 +502,4 @@ C:\Users\student\Downloads\FURNI\Furni\obj\Debug\net8.0\refint\Furni.dll
 C:\Users\student\Downloads\FURNI\Furni\obj\Debug\net8.0\Furni.pdb
 C:\Users\student\Downloads\FURNI\Furni\obj\Debug\net8.0\Furni.genruntimeconfig.cache
 C:\Users\student\Downloads\FURNI\Furni\obj\Debug\net8.0\ref\Furni.dll
+C:\Users\student\Downloads\FURNI\Furni\obj\Debug\net8.0\Furni.sourcelink.json

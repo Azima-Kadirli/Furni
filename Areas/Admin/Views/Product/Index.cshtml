@@ -10,6 +10,9 @@
           <th scope="col">Price</th>
           <th scope="col">ImageName</th>
           <th scope="col">ImagePath</th>
+          <th scope="col">IsDeleted</th>
+          <th scope="col">Active</th>
+          
         </tr>
       </thead>
       <tbody>
@@ -20,9 +23,25 @@
                         <td>@product.Price</td>
                         <td>@product.ImageName</td>
                         <td>@product.ImagePath</td>
+                        <td>@product.IsDeleted</td>
+                        
               <td>
                             <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning">Update</a>
                             <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+                            <form asp-action="Toggle" asp-route-id="@product.Id"  method="post">
+                                @if (!product.IsDeleted)
+                                {
+                                    <button class=" btn btn-danger">
+                                        a
+                                    </button>
+                                }
+                                else
+                                {
+                                    <button class=" btn btn-success">
+                                        b
+                                    </button>
+                                }
+                            </form>
               </td>
                 </tr>
         }

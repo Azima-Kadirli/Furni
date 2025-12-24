@@ -3,6 +3,7 @@ using Furni.Contexts;
 using Furni.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ValueGeneration.Internal;
 
 namespace Furni.Areas.Admin.Controllers;
 [Area("Admin")]
@@ -71,6 +72,20 @@ public class ProductController(FurniDbContext context) : Controller
         existingProduct.UpdatedDate = product.UpdatedDate;
 
         context.Products.Update(existingProduct);
+        await context.SaveChangesAsync();
+        return RedirectToAction(nameof(Index));
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Toggle(int id)
+    {
+        var product = await context.Products.FindAsync(id);
+        if (product is not { })
+        {
+            return NotFound("Product is not found");
+        }
+        product.IsDeleted = !product.IsDeleted;
+        context.Update(product);
         await context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }

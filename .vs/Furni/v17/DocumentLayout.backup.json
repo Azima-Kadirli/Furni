@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,28 +19,8 @@
       "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\areas\\admin\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\areas\\admin\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\areas\\admin\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\downloads\\furni\\furni\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -66,18 +46,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-24T04:53:33.88Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\Product\\Update.cshtml",
@@ -86,23 +54,25 @@
               "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-24T04:51:24.196Z"
+              "WhenOpened": "2025-12-24T04:51:24.196Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T06:27:51.919Z"
+              "WhenOpened": "2025-12-23T06:27:51.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Create.cshtml",
@@ -114,64 +84,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAuwDoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAcwFIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-23T06:27:04.296Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\Employees\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Employees\\Create.cshtml",
-              "ToolTip": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\Employees\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Employees\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T06:15:14.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T06:11:20.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\Employees\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Employees\\Index.cshtml",
-              "ToolTip": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Views\\Employees\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Employees\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T06:04:36.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\student\\Downloads\\FURNI\\Furni\\Areas\\Admin\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T06:01:08.755Z"
             }
           ]
         }
