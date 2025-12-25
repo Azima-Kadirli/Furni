@@ -1,0 +1,39 @@
+﻿@model List<Employee>
+
+<div class="container">
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">FirstName</th>
+                    <th scope="col">LastName</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">ImageName</th>
+                    <th scope="col">ImageUrl</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Employee employee in Model)
+                {
+                    <tr>
+                        <th scope="row">@employee.Id</th>
+                        <td>@employee.FirstName</td>
+                        <td>@employee.LastName</td>
+                        <td>@employee.Description</td>
+                        <td>@employee.Position</td>
+                        <td>@employee.ImageName</td>
+                        <td>@employee.ImageUrl</td>
+
+                        <td>
+                            <a asp-action="Update" asp-route-id="@employee.Id" class="btn btn-warning">Update</a>
+                            <a asp-action="Delete" asp-route-id="@employee.Id" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

@@ -1,4 +1,5 @@
-﻿<div class="container">
+﻿@model Employee
+<div class="container">
     <div class="row">
         <form method="post" asp-action="Create" asp-controller="Employee">
 
@@ -31,6 +32,7 @@
                 <label>Image Name</label>
                 <input type="text" name="imageName" class="form-control" />
             </div>
+
 
             <button type="submit" class="btn btn-primary">Submit</button>
 

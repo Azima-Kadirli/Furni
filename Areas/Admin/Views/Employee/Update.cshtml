@@ -1,0 +1,41 @@
+﻿@model Employee
+<div class="container">
+    <div class="row">
+        <form method="post" asp-action="Update" asp-controller="Employee">
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Position"></label>
+                <input asp-for="Position" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageUrl"></label>
+                <input asp-for="ImageUrl" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageName"></label>
+                <input asp-for="ImageName" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+    </div>
+</div>

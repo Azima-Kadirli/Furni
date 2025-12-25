@@ -1,0 +1,41 @@
+﻿@model Blog
+<div class="container">
+    <div class="row">
+        <form method="post" asp-action="Update" asp-controller="Blog">
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="Title"></label>
+                <input asp-for="Title" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Text"></label>
+                <input asp-for="Text" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PostDate"></label>
+                <input asp-for="PostDate" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageUrl"></label>
+                <input asp-for="ImageUrl" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageName"></label>
+                <input asp-for="ImageName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EmployeeId"></label>
+                <input asp-for="EmployeeId" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+    </div>
+</div>

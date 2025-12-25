@@ -6,67 +6,71 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Furni.Areas.Admin.Controllers;
 [Area("Admin")]
-public class EmployeeController : Controller
+public class BlogController : Controller
 {
     readonly FurniDbContext _context;
 
-    public EmployeeController(FurniDbContext context)
+    public BlogController(FurniDbContext context)
     {
         _context = context;
     }
 
     public async Task<IActionResult> Index()
     {
-        var products = await _context.Employees.ToListAsync();
-        return View(products);
+        var blogs = await _context.Blogs.Include(x=>x.EmployeeId).ToListAsync();
+        return View(blogs);
     }
 
     public async Task<IActionResult> Create()
     {
-        var employees = await _context.Employees.ToListAsync();
-        ViewBag.Employee = employees;
+        var blogs = await _context.Blogs.ToListAsync();
+        ViewBag.Blogs = blogs;
         return View();
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(Employee employee)
+    public async Task<IActionResult> Create(Blog blog)
     {
         if (!ModelState.IsValid)
         {
-            var employees = await _context.Employees.ToListAsync();
-            ViewBag.Employee = employees;
+            var blogs = await _context.Blogs.ToListAsync();
+            ViewBag.Blogs = blogs;
             return View();
         }
-        await _context.Employees.AddAsync(employee);
+        var existedEmployee = await _context.Employees.AnyAsync(x => x.Id == blog.EmployeeId);
+        if (!existedEmployee)
+        {
+            ModelState.AddModelError("EmployeeId", "Bele bir employee yoxdur");
+            return View(blog);
+        }
+
+        await _context.Blogs.AddAsync(blog);
         await _context.SaveChangesAsync();
         return RedirectToAction("Index");
     }
-
 
     public async Task<IActionResult> Delete(int id)
     {
-        var employee = await _context.Employees.FindAsync(id);
-        if(employee == null) return NotFound();
+        var blog = await _context.Blogs.FindAsync(id);
+        if (blog == null) return NotFound();
 
-        _context.Employees.Remove(employee);
+       _context.Blogs.Remove(blog);
         await _context.SaveChangesAsync();
         return RedirectToAction("Index");
     }
-
 
     [HttpGet]
     public async Task<IActionResult> Update(int id)
     {
-        var employee = await _context.Employees.FindAsync(id);
-        if (employee == null) return NotFound();
-        return View(employee);
+        var blog = await _context.Blogs.FindAsync(id);
+        if(blog == null) return NotFound();
+        return View(blog);
     }
-
 
     [HttpPost]
     public async Task<IActionResult> Update(Employee employee)
     {
-        var existEmployee = await _context.Employees.FirstOrDefaultAsync(x=>x.Id==employee.Id);
+        var existEmployee = await _context.Employees.FirstOrDefaultAsync(_context => _context.Id == employee.Id);
         if (existEmployee == null) return NotFound();
 
         existEmployee.FirstName = employee.FirstName;
@@ -76,7 +80,7 @@ public class EmployeeController : Controller
         existEmployee.ImageName = employee.ImageName;
         existEmployee.ImageUrl = employee.ImageUrl;
 
-        _context.Employees.Update(existEmployee);
+        _context.Employees.Update(employee);
         await _context.SaveChangesAsync();
         return RedirectToAction("Index");
     }

@@ -1,0 +1,39 @@
+﻿@model List<Blog>
+
+<div class="container">
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Text</th>
+                    <th scope="col">PostDate</th>
+                    <th scope="col">ImageName</th>
+                    <th scope="col">ImageUrl</th>
+                    <th scope="col">EmployeeName</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Blog blog in Model)
+                {
+                    <tr>
+                        <th scope="row">@blog.Id</th>
+                        <td>@blog.Title</td>
+                        <td>@blog.Text</td>
+                        <td>@blog.PostDate</td>
+                        <td>@blog.ImageName</td>
+                        <td>@blog.ImageUrl</td>
+                        <td>@blog.Employee.FirstName</td>
+
+                        <td>
+                            <a asp-action="Update" asp-route-id="@blog.Id" class="btn btn-warning">Update</a>
+                            <a asp-action="Delete" asp-route-id="@blog.Id" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
