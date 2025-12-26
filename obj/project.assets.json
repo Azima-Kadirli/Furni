@@ -7355,11 +7355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Furni.csproj",
+      "projectUniqueName": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Furni.csproj",
       "projectName": "Furni",
-      "projectPath": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Furni.csproj",
+      "projectPath": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Furni.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\obj\\",
+      "outputPath": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

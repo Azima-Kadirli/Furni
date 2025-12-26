@@ -1,33 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\",
+  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\student\\Desktop\\El vurma\\Furni\\Migrations\\20251225062534_addedcustomertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251225062534_addedcustomertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma\\furni\\contexts\\furnidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:contexts\\furnidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma\\furni\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma\\furni\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\viewmodels\\productviewmodels\\productcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:viewmodels\\productviewmodels\\productcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma\\furni\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma\\furni\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\viewmodels\\productviewmodels\\productindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:viewmodels\\productviewmodels\\productindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma\\furni\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\contexts\\furnidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:contexts\\furnidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|c:\\users\\student\\desktop\\el vurma sonra icindeki silinirr\\furni\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E900503D-658E-45E9-A797-3ACA5112C425}|Furni.csproj|solutionrelative:models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,28 +54,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 265,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251225062534_addedcustomertable.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Migrations\\20251225062534_addedcustomertable.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251225062534_addedcustomertable.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Migrations\\20251225062534_addedcustomertable.cs",
-              "RelativeToolTip": "Migrations\\20251225062534_addedcustomertable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T06:25:34.086Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T06:08:36.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "ProductIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\ViewModels\\ProductViewModels\\ProductIndexViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductViewModels\\ProductIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\ViewModels\\ProductViewModels\\ProductIndexViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProductViewModels\\ProductIndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:07:28.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T04:47:24.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T04:44:01.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwDIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T04:40:37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T04:40:07.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T04:31:04.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T04:29:18.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\ViewModels\\ProductViewModels\\ProductCreateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductViewModels\\ProductCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\ViewModels\\ProductViewModels\\ProductCreateViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProductViewModels\\ProductCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T04:27:52.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FurniDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Contexts\\FurniDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Contexts\\FurniDbContext.cs",
               "RelativeDocumentMoniker": "Contexts\\FurniDbContext.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Contexts\\FurniDbContext.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Contexts\\FurniDbContext.cs",
               "RelativeToolTip": "Contexts\\FurniDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,63 +188,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Customer.cs",
-              "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T06:23:20.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T06:22:56.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T06:22:46.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Blog.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Blog.cs",
-              "RelativeDocumentMoniker": "Models\\Blog.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Blog.cs",
-              "RelativeToolTip": "Models\\Blog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T06:22:29.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Common\\BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Models\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Models\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma\\Furni\\Models\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\El vurma sonra icindeki silinirr\\Furni\\Models\\Common\\BaseEntity.cs",
               "RelativeToolTip": "Models\\Common\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

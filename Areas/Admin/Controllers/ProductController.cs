@@ -1,17 +1,27 @@
 ﻿using System.Threading.Tasks;
 using Furni.Contexts;
 using Furni.Models;
+using Furni.ViewModels.ProductViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ValueGeneration.Internal;
 
 namespace Furni.Areas.Admin.Controllers;
 [Area("Admin")]
-public class ProductController(FurniDbContext context) : Controller
+public class ProductController(FurniDbContext context,IWebHostEnvironment env) : Controller
 {
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        var products = context.Products.ToList();
+        var products = await context.Products
+            .Select(p=>new ProductIndexViewModel
+            {
+                Id = p.Id,
+                ImageName = p.ImageName,
+                ImagePath = p.ImagePath,
+                IsDeleted = p.IsDeleted,
+                Title = p.Title,
+                Price = p.Price
+            }).ToListAsync();
         return View(products);
     }
 
@@ -25,12 +35,40 @@ public class ProductController(FurniDbContext context) : Controller
 
 
     [HttpPost]
-    public async Task<IActionResult> Create(Product product)
+    public async Task<IActionResult> Create(ProductCreateViewModel vm)
     {
         if (!ModelState.IsValid)
-            return View(product);
+            return View(vm);
 
-        product.CreatedDate = DateTime.UtcNow.AddHours(4);
+        //product.CreatedDate = DateTime.UtcNow.AddHours(4);
+
+        
+        string folder = Path.Combine("assets", "images");
+        string uniqueName = Guid.NewGuid().ToString()+Path.GetExtension(vm.Image.FileName);
+        string imagePath = Path.Combine(env.WebRootPath, folder,uniqueName);
+        using FileStream stream = new(imagePath, FileMode.Create);
+        await vm.Image.CopyToAsync(stream);
+
+        if (!vm.Image.ContentType.Contains("image"))
+        {
+            ModelState.AddModelError("Image", "Yalniz image tipinde sekiller yukleyin");
+            return View(vm);
+        }
+
+        if (vm.Image.Length > 2 * 1024 * 1024)
+        {
+            ModelState.AddModelError("Image", "Sekilin uzunlugu maksimum 2mb ola biler");
+        }
+
+        Product product = new()
+        {
+            Title = vm.Title,
+            Price = vm.Price,
+            CreatedDate = DateTime.UtcNow.AddHours(4),
+            IsDeleted = false,
+            ImageName = uniqueName,
+            ImagePath = Path.Combine(folder,uniqueName)
+        };
 
         await context.Products.AddAsync(product);
         await context.SaveChangesAsync();

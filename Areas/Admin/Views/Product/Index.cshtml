@@ -1,4 +1,5 @@
-﻿@model List<Product>
+﻿@using Furni.ViewModels.ProductViewModels
+@model List<ProductIndexViewModel>
 
         <div class="container">
             <div class="row">
@@ -16,7 +17,7 @@
         </tr>
       </thead>
       <tbody>
-        @foreach(Product product in Model){
+        @foreach(var product in Model){
                 <tr>
                         <th scope="row">@product.Id</th>
                         <td>@product.Title</td>
@@ -32,13 +33,13 @@
                                 @if (!product.IsDeleted)
                                 {
                                     <button class=" btn btn-danger">
-                                        a
+                                        
                                     </button>
                                 }
                                 else
                                 {
                                     <button class=" btn btn-success">
-                                        b
+                                        
                                     </button>
                                 }
                             </form>

@@ -897,3 +897,16 @@ wwwroot\assets\js\bootstrap.bundle.min.js
 wwwroot\assets\js\custom.js
 wwwroot\assets\js\tiny-slider.js
 wwwroot\assets\scss\style.scss
+wwwroot\assets\images\7e28cf09-0237-44d4-a9c1-3500eb275fe0star.png
+wwwroot\assets\images\fea82458-7eb4-4121-9cce-b0687ce40cedstar.png
+wwwroot\assets\images\cc4eace6-8ccd-4f4d-8efd-2c5f341e08d3star.png
+wwwroot\assets\images\7e8356d2-253e-4012-8f1d-dcc8d6e6d8bastar.png
+wwwroot\assets\images\aa5f900b-a22b-4a52-85ec-8b8f4381a370star.png
+wwwroot\assets\images\cb531855-be1b-400b-bc93-ad24b2c5cc64heart.png
+wwwroot\assets\images\7d4c68e1-a673-416c-aef2-80920cee6ef3heart.png
+wwwroot\assets\images\6be064d6-7be6-44c2-a82b-f6ec303f0f09.png
+wwwroot\assets\images\4e073df4-41b2-4a2d-b6e7-a2a31b655358.png
+wwwroot\assets\images\966aa11b-aa32-4592-8559-4928052afdf3.png
+wwwroot\assets\images\ab4c8b23-a59d-4f06-b5aa-2c160a839fa4.png
+wwwroot\assets\images\b03f02e4-27e3-4ae3-b954-288f44cd674a.png
+wwwroot\assets\images\66802f4e-d9a2-4215-8e3e-aab78bd4598a.png
