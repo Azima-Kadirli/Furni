@@ -1,53 +1,63 @@
-﻿@model Blog
+﻿@using Furni.ViewModels.BlogViewModels
+@model BlogCreateViewModel
+@{
+    ViewData["Title"] = "Create Blog";
+}
+
 <div class="container">
     <div class="row">
-        <h2>Create Product</h2>
-        <form method="post">
+        <h2>Create Blog</h2>
+        <form asp-area="admin" method="post" asp-action="Create" asp-controller="Blog" enctype="multipart/form-data">
+
             <div class="form-group">
                 <label asp-for="Title"></label>
-                <input asp-for="Title" class="form-control" placeholder="title" />
+                <input asp-for="Title" class="form-control" placeholder="Title" />
                 <span class="text-danger" asp-validation-for="Title"></span>
             </div>
 
             <div class="form-group">
                 <label asp-for="Text"></label>
-                <input asp-for="Text" class="form-control" placeholder="text" />
+                <textarea asp-for="Text" class="form-control" placeholder="Text"></textarea>
                 <span class="text-danger" asp-validation-for="Text"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="PostDate"></label>
-                <input asp-for="PostDate" class="form-control" placeholder="PostDate" />
-                <span class="text-danger" asp-validation-for="PostDate"></span>
-            </div>
-
-            <div class="form-group">
                 <label asp-for="ImageName"></label>
-                <input asp-for="ImageName" class="form-control" placeholder="ImageName" />
+                <input asp-for="ImageName" type="file" class="form-control" placeholder="ImageName" />
                 <span class="text-danger" asp-validation-for="ImageName"></span>
             </div>
 
-
             <div class="form-group">
                 <label asp-for="EmployeeId"></label>
-                <select asp-for="EmployeeId" id="EmployeeId">
-                    @foreach (Employee employee in ViewBag.Employees)
+                <select asp-for="EmployeeId" class="form-control">
+                    <option value="">Seçin...</option>
+                    @if (ViewBag.Employees != null)
                     {
-                        <option value="@employee.Id">@employee.FirstName</option>
+                        foreach (var emp in ViewBag.Employees)
+                        {
+                            <option value="@emp.Id">@emp.FirstName</option>
+                        }
                     }
                 </select>
                 <span class="text-danger" asp-validation-for="EmployeeId"></span>
             </div>
 
-
             <div class="form-group">
-                <label asp-for="ImageUrl"></label>
-                <input asp-for="ImageUrl" class="form-control" placeholder="ImageUrl" />
-                <span class="text-danger" asp-validation-for="ImageUrl"></span>
+                <label asp-for="TagIds"></label>
+                <select asp-for="TagIds" id="TagIds">
+                    <option value="" disabled selected>Tag seçin</option>
+                    @if (ViewBag.Tags != null)
+                    {
+                        foreach (var tag in ViewBag.Tags)
+                        {
+                            <option value="@tag.Id">@tag.Name</option>
+                        }
+                    }
+                </select>
+                <span class="text-danger" asp-validation-for="TagIds"></span>
             </div>
-
-
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 </div>
+

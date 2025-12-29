@@ -1,0 +1,13 @@
+﻿@using Furni.ViewModels.BlogViewModels
+@model BlogGetViewModel
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="~/assets/images/website-images/@Model.ImageName" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text">@Model.Text</p>
+        <p class="card-text">Tags: @foreach (var tag in Model.TagNames)
+                                   {
+                                       <span>@tag</span>
+                                   }</p>
+    </div>
+</div>

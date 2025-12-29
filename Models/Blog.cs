@@ -1,4 +1,5 @@
-﻿using Furni.Models.Common;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using Furni.Models.Common;
 
 namespace Furni.Models
 {
@@ -12,5 +13,6 @@ namespace Furni.Models
 
         public int EmployeeId { get; set; }
         public Employee Employee { get; set; }
+        public ICollection<BlogTag> BlogTags { get; set; }
     }
 }

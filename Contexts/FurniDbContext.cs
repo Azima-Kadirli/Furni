@@ -14,5 +14,7 @@ public class FurniDbContext: DbContext
     public DbSet<Employee> Employees { get; set; }
     public DbSet<Blog>Blogs { get; set; }
     public DbSet<Customer> Customers { get; set; }
+    public DbSet<Tag>Tags { get; set; }
+    public DbSet<BlogTag> BlogsTags { get; set; }
 
 }

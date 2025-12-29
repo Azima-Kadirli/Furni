@@ -1,31 +1,37 @@
-﻿@model List<Blog>
+﻿@using Furni.ViewModels.BlogViewModels
+@model List<BlogGetViewModel>
 
 <div class="container">
     <div class="row">
-        <table class="table">
+        <table class="table table-bordered">
             <thead>
                 <tr>
-                    <th scope="col">Id</th>
-                    <th scope="col">Title</th>
-                    <th scope="col">Text</th>
-                    <th scope="col">PostDate</th>
-                    <th scope="col">ImageName</th>
-                    <th scope="col">ImageUrl</th>
-                    <th scope="col">EmployeeName</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Text</th>
+                    <th>PostDate</th>
+                    <th>Image</th>
+                    <th>Employee</th>
+                    <th>Tags</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (Blog blog in Model)
+                @foreach (var blog in Model)
                 {
                     <tr>
-                        <th scope="row">@blog.Id</th>
+                        <td>@blog.Id</td>
                         <td>@blog.Title</td>
                         <td>@blog.Text</td>
-                        <td>@blog.PostDate</td>
-                        <td>@blog.ImageName</td>
-                        <td>@blog.ImageUrl</td>
+                        <td>@blog.PostDate.ToString("yyyy-MM-dd")</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(blog.ImageName))
+                            {
+                                <img src="@blog.ImageName" alt="@blog.Title" style="width:100px;" />
+                            }
+                        </td>
                         <td>@blog.Employee.FirstName</td>
-
+                        <td>@string.Join(", ", blog.TagNames)</td>
                         <td>
                             <a asp-action="Update" asp-route-id="@blog.Id" class="btn btn-warning">Update</a>
                             <a asp-action="Delete" asp-route-id="@blog.Id" class="btn btn-danger">Delete</a>
@@ -35,5 +41,4 @@
             </tbody>
         </table>
     </div>
-
 </div>
