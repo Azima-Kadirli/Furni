@@ -118,24 +118,66 @@ public class BlogController : Controller
     [HttpGet]
     public async Task<IActionResult> Update(int id)
     {
-        var blog = await _context.Blogs.FindAsync(id);
-        if(blog == null) return NotFound();
-        return View(blog);
+        ViewBag.Tags = await _context.Tags.ToListAsync();
+        ViewBag.Employees = await _context.Employees.ToListAsync(); 
+
+        var blog = await _context.Blogs
+            .Include(b => b.BlogTags)
+            .FirstOrDefaultAsync(b => b.Id == id);
+
+        if (blog == null) return NotFound();
+
+        var vm = new BlogUpdateViewModel
+        {
+            Id = blog.Id,
+            Title = blog.Title,
+            Text = blog.Text,
+            ImageUrl = blog.ImageUrl,
+            ImageName = blog.ImageName,
+            TagIds = blog.BlogTags.Select(bt => bt.TagId).ToList()
+        };
+
+        return View(vm);
     }
 
     [HttpPost]
     public async Task<IActionResult> Update(BlogUpdateViewModel vm)
     {
-        if (!ModelState.IsValid)
+        ViewBag.Tags = await _context.Tags.ToListAsync();
+        ViewBag.Employees = await _context.Employees.ToListAsync();
+
+        if (!ModelState.IsValid) return View(vm);
+
+        foreach (var tagId in vm.TagIds)
         {
-            return View(vm);
+            var isExistTag = await _context.Tags.AnyAsync(t => t.Id == tagId);
+            if (!isExistTag)
+            {
+                ModelState.AddModelError("TagIds", "Belə bir tag mövcud deyil");
+                return View(vm);
+            }
         }
-        var existBlog = await _context.Blogs.FindAsync(vm.Id);
+
+        var existBlog = await _context.Blogs
+            .Include(b => b.BlogTags)
+            .FirstOrDefaultAsync(b => b.Id == vm.Id);
+
         if (existBlog == null) return NotFound();
+
         existBlog.Title = vm.Title;
         existBlog.Text = vm.Text;
 
-        _context.Blogs.Update(existBlog);
+        existBlog.BlogTags.Clear();
+
+        foreach (var tagId in vm.TagIds)
+        {
+            existBlog.BlogTags.Add(new BlogTag
+            {
+                TagId = tagId,
+                BlogId = existBlog.Id
+            });
+        }
+
         await _context.SaveChangesAsync();
         return RedirectToAction("Index");
     }
@@ -156,5 +198,13 @@ public class BlogController : Controller
         if (blog is null)
             return NotFound();
         return View(blog);
+    }
+    
+    private async Task SendItemsWithViewBag<T>() where T : class
+    {
+        var categories = await _context.Set<T>().ToListAsync();
+        ViewBag.Categories = categories;
+        var tags = await _context.Tags.ToListAsync();
+        ViewBag.Tags = tags;
     }
 }

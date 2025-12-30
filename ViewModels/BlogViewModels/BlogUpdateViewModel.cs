@@ -9,6 +9,6 @@ namespace Furni.ViewModels.BlogViewModels
         public string Text { get; set; }
         public string? ImageName { get; set; }
         public string? ImageUrl { get; set; }
-
+        public List<int>TagIds { get; set; }
     }
 }

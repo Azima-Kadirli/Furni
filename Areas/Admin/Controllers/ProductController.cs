@@ -31,9 +31,7 @@ public class ProductController(FurniDbContext context,IWebHostEnvironment env) :
     {
         return View();
     }
-
-
-
+    
     [HttpPost]
     public async Task<IActionResult> Create(ProductCreateViewModel vm)
     {
@@ -74,8 +72,7 @@ public class ProductController(FurniDbContext context,IWebHostEnvironment env) :
 
         return RedirectToAction(nameof(Index));
     }
-
-
+    
     public async Task<IActionResult> Delete(int id)
     {
         var product = await context.Products.FindAsync(id);
@@ -91,7 +88,14 @@ public class ProductController(FurniDbContext context,IWebHostEnvironment env) :
     {
         var product = await context.Products.FirstOrDefaultAsync(x => x.Id == id);
         if (product is null) return NotFound("Product is not found");
-        return View(product);
+        var vm = new ProductUpdateViewModel()
+        {
+            Title =  product.Title,
+            Price = product.Price,
+            ImageName = product.ImageName,
+            ImagePath = product.ImagePath
+        };
+        return View(vm);
     }
 
     [HttpPost]
